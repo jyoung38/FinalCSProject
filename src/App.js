@@ -21,7 +21,7 @@ function App()
   return (
     <div>
       <TaskInput addTask={addTask} />
-      <TaskList tasks={tasks} deleteTask={deleteTask} /> {/* Ensure this line is here */}
+      <TaskList tasks={tasks} deleteTask={deleteTask} /> {}
     </div>
   );
 }
